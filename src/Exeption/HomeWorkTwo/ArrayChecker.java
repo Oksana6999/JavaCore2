@@ -52,7 +52,7 @@ public class ArrayChecker {
                     result += Integer.parseInt(str[y]);
                 }
                 catch (NumberFormatException e) {
-                    throw new MyArrayDataException("Невозможно полчить сумму значений, ошибка в ячейке " + x + ","+ y );
+                    throw new MyArrayDataException("Невозможно получить сумму значений, ошибка в ячейке " + x + ","+ y );
                 }
 
             }
